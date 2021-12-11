@@ -1,0 +1,19 @@
+accept-encoding: gzip
+appplatform: '1'
+appversioncode: '2'
+appversionname: '1.0'
+authorization: ''
+brand: Infinix
+content-length: '91'
+content-type: application/json; charset=UTF-8
+country: CN
+curpackagechannel: ''
+deviceid: 8c154773-5b9a-4b25-bfd9-bf488b7643b9
+language: en
+model: Infinix X687
+netquality: ''
+nettype: WIFI
+packagechannel: ''
+packagename: com.mole.talktalk
+sdkint: '29'
+user-agent: okhttp/3.14.9
