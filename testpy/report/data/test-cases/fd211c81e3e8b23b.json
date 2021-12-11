@@ -1,0 +1,108 @@
+{
+  "uid" : "fd211c81e3e8b23b",
+  "name" : "test_bat",
+  "fullName" : "test3.test_b#test_bat",
+  "historyId" : "94c14227230a924105d729d13791ced9",
+  "time" : {
+    "start" : 1637329584869,
+    "stop" : 1637329584869,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+  "statusTrace" : "conf_fixture = None\n\n    @pytest.mark.run(order=2)\n    def test_bat(conf_fixture):\n        print(\"sdsdfdsdfsdfsdfdfdfg\")\n>       assert 1==2\nE       assert 1 == 2\nE         +1\nE         -2\n\ntest3\\test_b.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "conf_fixture",
+    "time" : {
+      "start" : 1637329584866,
+      "stop" : 1637329584866,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test3"
+  }, {
+    "name" : "suite",
+    "value" : "test_b"
+  }, {
+    "name" : "host",
+    "value" : "CYHD-L-0025"
+  }, {
+    "name" : "thread",
+    "value" : "1948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test3.test_b"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bbaedaf544d66426",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+      "time" : {
+        "start" : 1637329170913,
+        "stop" : 1637329170914,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f9774d034dd84171",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+      "time" : {
+        "start" : 1637328971286,
+        "stop" : 1637328971286,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd6e07ffcc711498",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+      "time" : {
+        "start" : 1637070236351,
+        "stop" : 1637070236351,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "fd211c81e3e8b23b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d1c432f4e196f0a7",
+  "name" : "test_login[pam10]",
+  "time" : {
+    "start" : 1639141199961,
+    "stop" : 1639141201115,
+    "duration" : 1154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9788914c7c82d0e2",
+  "name" : "test_login[pam10]",
+  "time" : {
+    "start" : 1639122377459,
+    "stop" : 1639122378928,
+    "duration" : 1469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

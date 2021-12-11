@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/monkey" />
+            <path value="file://$PROJECT_DIR$/madiian_test" />
+            <path value="file://$PROJECT_DIR$/test_request" />
+            <path value="file://$PROJECT_DIR$/cool_start" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>

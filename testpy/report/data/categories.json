@@ -1,0 +1,93 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 2\n  +4\n  -2",
+      "children" : [ {
+        "name" : "test_fas",
+        "uid" : "80d82ac03a56d5cc",
+        "parentUid" : "14ad90107c71b1c8b00e439b18c576fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637328971576,
+          "stop" : 1637328971576,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14ad90107c71b1c8b00e439b18c576fe"
+    }, {
+      "name" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+      "children" : [ {
+        "name" : "test_bat",
+        "uid" : "fd211c81e3e8b23b",
+        "parentUid" : "10959c3b9d2f664cb99b9d2e2fac064d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637329584869,
+          "stop" : 1637329584869,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10959c3b9d2f664cb99b9d2e2fac064d"
+    }, {
+      "name" : "AssertionError: assert 2 == 1\n  +2\n  -1",
+      "children" : [ {
+        "name" : "test_islen1[bc]",
+        "uid" : "589c785268bc08ca",
+        "parentUid" : "acc8617e035d0d48b427bc2eae04aa4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637672560989,
+          "stop" : 1637672560990,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'bc'" ]
+      } ],
+      "uid" : "acc8617e035d0d48b427bc2eae04aa4d"
+    }, {
+      "name" : "AssertionError: assert 9 == 6\n  +9\n  -6",
+      "children" : [ {
+        "name" : "test_islen1[4-5-6]",
+        "uid" : "41b692614d2de0c",
+        "parentUid" : "c596b7baa56066b00c31408eec74740a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637673492501,
+          "stop" : 1637673492502,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "4", "5", "6" ]
+      } ],
+      "uid" : "c596b7baa56066b00c31408eec74740a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
