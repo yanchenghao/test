@@ -1,3 +1,3 @@
-import sdsd
-aa=sdsd.a()
-aa.sds("sdsdsd")
+from sdsd import a
+b=a()
+c=b.sds("sdsdsd")
