@@ -26,22 +26,22 @@ def monkey_errlog():
                 os.mkdir(path + dev)
             except Exception as err:
                 print(err)
-      # os.system(f"adb -s {dev} logcat -b main -v time|findstr E/>{path}{dev}\ppstore1_logcat.log")
+      # os.system(f"adb -s {dev} logcat -b main -v time|findstr E/>{path}{dev}\ppstore1_logcat.logs")
       time.sleep(1)
       # with open(path + dev + "-monkey" + ".bat", "w") as monkey1_file:  #
       #       monkey1_file.write(f"adb -s {dev} shell  monkey -p {pk} -v -v-v  -s 100  --throttle 100  \
       #           --pct-touch 20 --pct-motion 5 --pct-trackball 20 --pct-nav 2 --pct-majornav 19 --pct-syskeys 0 \
       #            --pct-appswitch 32 --pct-anyevent 1  --ignore-security-exceptions  --ignore-crashes --ignore-timeouts \
-      #            100000000 1>{path}{dev}\monkey.log  2>{path}{dev}\error.log" + "\n")
+      #            100000000 1>{path}{dev}\monkey.logs  2>{path}{dev}\error.logs" + "\n")
       # time.sleep(1)
       with open(path + dev + "-logcat" + ".bat", "w") as monkey2_file:
           monkey2_file.write(f"adb -s {dev} logcat -b main -v time|findstr E/>{path}{dev}\ppstore_logcat.log" + "\n")
           monkey2_file.write("pause\n")
           time.sleep(1)
     #   with open(path+dev + "-meninfo" + ".bat", "w") as monkey3_file:#
-    #      monkey3_file.write(f"adb -s {dev}  shell dumpsys meminfo {pk}:core |findstr TOTAL: >>{path}{dev}\meninfo.log\n")
+    #      monkey3_file.write(f"adb -s {dev}  shell dumpsys meminfo {pk}:core |findstr TOTAL: >>{path}{dev}\meninfo.logs\n")
     #      time.sleep(1)
-    #      monkey3_file.write(f"adb -s {dev} shell date >>{path}{dev}\meninfo.log\n")
+    #      monkey3_file.write(f"adb -s {dev} shell date >>{path}{dev}\meninfo.logs\n")
     #      time.sleep(1)
     #      monkey3_file.write("exit\n")
     #

@@ -1,5 +1,5 @@
 import logging
-import os
+
 log_l={
     "info":logging.INFO,
     "debug":logging.DEBUG,
@@ -29,11 +29,6 @@ class Logger:
             # self.logger.info("Start print logs")
             # self.logger.debug("Do something")
             # self.logger.warning("Something maybe fail.")
-a=Logger("test.log","test","info")
-a.logger.info("sdsdsd")
-a.logger.debug("sdsdsdsdsd")
-print(os.path.dirname(__file__))
-print(__file__)
-print(os.path.split(__file__)[-1])
-print(os.path.split(__file__)[-1].split(".")[0])
-print(os.path.dirname(__file__))
+# a=Logger("test.log","test","info")
+# a.logger.info("sdsdsd")
+# a.logger.debug("sdsdsdsdsd")
