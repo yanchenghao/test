@@ -52,3 +52,17 @@
 2021-12-14 18:38:05,820 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
 2021-12-14 19:24:54,184 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
 2021-12-14 19:24:54,199 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 19:28:32,702 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 19:28:32,717 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 19:31:47,998 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 19:31:48,013 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 19:34:35,053 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 19:34:35,065 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 19:38:47,874 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 19:38:47,886 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 19:42:51,950 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 19:42:51,960 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 19:44:07,418 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 19:44:07,434 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 19:46:19,837 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 19:46:19,837 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}

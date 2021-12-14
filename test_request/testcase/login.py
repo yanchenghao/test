@@ -17,7 +17,6 @@ logger1= log_config.Logger("logs/" + log_path, "test", log_level)
 path="/api/user/snackUser/login"
 
 url1=protocol+host+path
-logger1.logger.info("当前url:"+url1)
 header=yaml_conf.yaml_load("./data/header.yaml")
 data=yaml_conf.yaml_load("./data/login.yaml")
 params=data["pam"]
@@ -26,6 +25,7 @@ print(params)
 def test_login(pam1):
 	# pams=pam1["pam"]
 	print(pam1)
+	logger1.logger.info("当前url:" + url1)
 	logger1.logger.info("当前的测试参数"+str(pam1))
 	# print(pams)
 	r1=request1.request(url1,headers=header,json=pam1,http_method="post",timeout=5,verify=False)

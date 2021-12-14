@@ -1,101 +1,11 @@
 [ {
-  "uid" : "8da5a29c95f72f82",
-  "name" : "test_dfdf[3]",
-  "time" : {
-    "start" : 1639475496990,
-    "stop" : 1639475496990,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d31dbe19986bd402",
+  "uid" : "ca030652472525b2",
   "name" : "test_login[pam10]",
   "time" : {
-    "start" : 1639481094199,
-    "stop" : 1639481095771,
-    "duration" : 1572
+    "start" : 1639482379838,
+    "stop" : 1639482381071,
+    "duration" : 1233
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "db02e660c9a295cc",
-  "name" : "test_dfdf[1]",
-  "time" : {
-    "start" : 1639475496970,
-    "stop" : 1639475496971,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5151744ee2c2d0e",
-  "name" : "test_dfdf[2]",
-  "time" : {
-    "start" : 1639475496980,
-    "stop" : 1639475496981,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a998ef4f4dac57dc",
-  "name" : "test_login[phone]",
-  "time" : {
-    "start" : 1639476436252,
-    "stop" : 1639476437395,
-    "duration" : 1143
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "31dc4621f284f11b",
-  "name" : "test_login[code]",
-  "time" : {
-    "start" : 1639230319015,
-    "stop" : 1639230319015,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "dbfc32471dd5d396",
-  "name" : "test_login[countryPhoneCode]",
-  "time" : {
-    "start" : 1639476433380,
-    "stop" : 1639476434785,
-    "duration" : 1405
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "aa9f521899061bea",
-  "name" : "test_login[password]",
-  "time" : {
-    "start" : 1639476435059,
-    "stop" : 1639476436233,
-    "duration" : 1174
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "3f839f3469436f9d",
-  "name" : "test_login[pam10]",
-  "time" : {
-    "start" : 1639122377459,
-    "stop" : 1639122378928,
-    "duration" : 1469
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "80f69ece3f469241",
-  "name" : "test_login[pam]",
-  "time" : {
-    "start" : 1639230318787,
-    "stop" : 1639230318787,
-    "duration" : 0
-  },
-  "status" : "broken",
   "severity" : "normal"
 } ]

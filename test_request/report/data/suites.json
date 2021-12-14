@@ -2,190 +2,29 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "login",
-    "children" : [ {
-      "name" : "test_login[pam10]",
-      "uid" : "3f839f3469436f9d",
-      "parentUid" : "e294307b5e869e9b2181239eb0874d42",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639122377459,
-        "stop" : 1639122378928,
-        "duration" : 1469
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "{'pam': {'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}, 'asertt': {'code': 1}}" ]
-    } ],
-    "uid" : "e294307b5e869e9b2181239eb0874d42"
-  }, {
     "name" : "testcase",
     "children" : [ {
       "name" : "login",
       "children" : [ {
-        "name" : "test_login[pam]",
-        "uid" : "80f69ece3f469241",
-        "parentUid" : "20d242b98a8d7cb01f501a301bf1836e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1639230318787,
-          "stop" : 1639230318787,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'pam'" ]
-      }, {
-        "name" : "test_login[code]",
-        "uid" : "31dc4621f284f11b",
-        "parentUid" : "20d242b98a8d7cb01f501a301bf1836e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1639230319015,
-          "stop" : 1639230319015,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'code'" ]
-      }, {
-        "name" : "test_login[countryPhoneCode]",
-        "uid" : "dbfc32471dd5d396",
-        "parentUid" : "20d242b98a8d7cb01f501a301bf1836e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1639476433380,
-          "stop" : 1639476434785,
-          "duration" : 1405
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'countryPhoneCode'" ]
-      }, {
-        "name" : "test_login[password]",
-        "uid" : "aa9f521899061bea",
-        "parentUid" : "20d242b98a8d7cb01f501a301bf1836e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1639476435059,
-          "stop" : 1639476436233,
-          "duration" : 1174
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'password'" ]
-      }, {
-        "name" : "test_login[phone]",
-        "uid" : "a998ef4f4dac57dc",
-        "parentUid" : "20d242b98a8d7cb01f501a301bf1836e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1639476436252,
-          "stop" : 1639476437395,
-          "duration" : 1143
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'phone'" ]
-      }, {
         "name" : "test_login[pam10]",
-        "uid" : "d31dbe19986bd402",
+        "uid" : "ca030652472525b2",
         "parentUid" : "20d242b98a8d7cb01f501a301bf1836e",
         "status" : "passed",
         "time" : {
-          "start" : 1639481094199,
-          "stop" : 1639481095771,
-          "duration" : 1572
+          "start" : 1639482379838,
+          "stop" : 1639482381071,
+          "duration" : 1233
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 104,
-        "retriesStatusChange" : true,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
       } ],
       "uid" : "20d242b98a8d7cb01f501a301bf1836e"
     } ],
     "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
-  }, {
-    "name" : "aaaa",
-    "children" : [ {
-      "name" : "test_dfdf[1]",
-      "uid" : "db02e660c9a295cc",
-      "parentUid" : "177e591aa4ed19f1e4159614f453986b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639475496970,
-        "stop" : 1639475496971,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "1" ]
-    }, {
-      "name" : "test_dfdf[2]",
-      "uid" : "f5151744ee2c2d0e",
-      "parentUid" : "177e591aa4ed19f1e4159614f453986b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639475496980,
-        "stop" : 1639475496981,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "2" ]
-    }, {
-      "name" : "test_dfdf[3]",
-      "uid" : "8da5a29c95f72f82",
-      "parentUid" : "177e591aa4ed19f1e4159614f453986b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639475496990,
-        "stop" : 1639475496990,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "3" ]
-    } ],
-    "uid" : "177e591aa4ed19f1e4159614f453986b"
   } ]
 }
