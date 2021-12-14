@@ -1,0 +1,75 @@
+{
+  "uid" : "45ff2ecc8818528e",
+  "name" : "test_bat",
+  "fullName" : "test3.test_b#test_bat",
+  "historyId" : "94c14227230a924105d729d13791ced9",
+  "time" : {
+    "start" : 1637328971286,
+    "stop" : 1637328971286,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+  "statusTrace" : "conf_fixture = None\n\n    @pytest.mark.run(order=2)\n    def test_bat(conf_fixture):\n        print(\"sdsdfdsdfsdfsdfdfdfg\")\n>       assert 1==2\nE       assert 1 == 2\nE         +1\nE         -2\n\ntest3\\test_b.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "conf_fixture",
+    "time" : {
+      "start" : 1637328971285,
+      "stop" : 1637328971285,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test3"
+  }, {
+    "name" : "suite",
+    "value" : "test_b"
+  }, {
+    "name" : "host",
+    "value" : "CYHD-L-0025"
+  }, {
+    "name" : "thread",
+    "value" : "11164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test3.test_b"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "45ff2ecc8818528e.json",
+  "parameterValues" : [ ]
+}

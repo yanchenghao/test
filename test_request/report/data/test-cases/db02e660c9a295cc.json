@@ -1,0 +1,57 @@
+{
+  "uid" : "db02e660c9a295cc",
+  "name" : "test_dfdf[1]",
+  "fullName" : "aaaa#test_dfdf",
+  "historyId" : "bdd1bcd884b0c2fc8b18860cd2251f1f",
+  "time" : {
+    "start" : 1639475496970,
+    "stop" : 1639475496971,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "aaaa"
+  }, {
+    "name" : "host",
+    "value" : "CYHD-L-0025"
+  }, {
+    "name" : "thread",
+    "value" : "12488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "aaaa"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sss",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db02e660c9a295cc.json",
+  "parameterValues" : [ "1" ]
+}

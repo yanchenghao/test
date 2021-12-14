@@ -19,9 +19,12 @@ def get_extension():
     log_extension=a["base"]["log_extension"]
     print(log_extension)
     return log_extension
-def get_logpath():
-    print(os.path.split(__file__)[-1].split(".")[0])
-    return os.path.split(__file__)[-1].split(".")[0]+get_extension()
+# def get_logpath():
+#     # print(os.path.split(__file__)[-1].split(".")[0])
+#     name=os.path.split(__file__)[-1].split(".")[0]+get_extension()
+#     dirandname="logs/"+name
+#     # print(os.path.split(__file__)[-1].split(".")[0]+get_extension())
+#     return dirandname
 
 
 

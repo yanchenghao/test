@@ -1,0 +1,60 @@
+{
+  "uid" : "22d88a6085a0634a",
+  "name" : "test_login[pam10]",
+  "fullName" : "testcase.login#test_login",
+  "historyId" : "d8106725fc93d2d94eb3cf4e96d470c3",
+  "time" : {
+    "start" : 1639226008493,
+    "stop" : 1639226008496,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "statusMessage" : "requests.exceptions.MissingSchema: Invalid URL 'https//api.molelive.com/api/user/snackUser/login': No schema supplied. Perhaps you meant http://https//api.molelive.com/api/user/snackUser/login?",
+  "statusTrace" : "pam1 = {'code': 1, 'pam': {'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}}\n\n    @pytest.mark.parametrize(\"pam1\", yaml_loader.yaml_get(\"./data/test.yaml\"))\n    # pam1=yaml_loader.yaml_get()\n    def test_login(pam1):\n    \t# pams=pam1[0]\n    \t# print(pam1)\n    \t# print(type(pam1))\n    \tpams=pam1[\"pam\"]\n    \t# print(pams)\n>   \tr1=request1.request(url1,headers=header,json=pams,http_method=\"post\",timeout=5,verify=False)\n\ntestcase\\login.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ncommon\\http_requests.py:9: in request\n    red = requests.post(url,headers=headers,data=data,json=json,timeout=timeout,verify=verify,cookies=cookie)\nD:\\Users\\tn_chenghao.yan\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\requests\\api.py:117: in post\n    return request('post', url, data=data, json=json, **kwargs)\nD:\\Users\\tn_chenghao.yan\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\requests\\api.py:61: in request\n    return session.request(method=method, url=url, **kwargs)\nD:\\Users\\tn_chenghao.yan\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\requests\\sessions.py:528: in request\n    prep = self.prepare_request(req)\nD:\\Users\\tn_chenghao.yan\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\requests\\sessions.py:456: in prepare_request\n    p.prepare(\nD:\\Users\\tn_chenghao.yan\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\requests\\models.py:316: in prepare\n    self.prepare_url(url, params)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <PreparedRequest [POST]>\nurl = 'https//api.molelive.com/api/user/snackUser/login', params = OrderedDict()\n\n    def prepare_url(self, url, params):\n        \"\"\"Prepares the given HTTP URL.\"\"\"\n        #: Accept objects that have string representations.\n        #: We're unable to blindly call unicode/str functions\n        #: as this will include the bytestring indicator (b'')\n        #: on python 3.x.\n        #: https://github.com/psf/requests/pull/2238\n        if isinstance(url, bytes):\n            url = url.decode('utf8')\n        else:\n            url = unicode(url) if is_py2 else str(url)\n    \n        # Remove leading whitespaces from url\n        url = url.lstrip()\n    \n        # Don't do any URL preparation for non-HTTP schemes like `mailto`,\n        # `data` etc to work around exceptions from `url_parse`, which\n        # handles RFC 3986 only.\n        if ':' in url and not url.lower().startswith('http'):\n            self.url = url\n            return\n    \n        # Support for unicode domain names and paths.\n        try:\n            scheme, auth, host, port, path, query, fragment = parse_url(url)\n        except LocationParseError as e:\n            raise InvalidURL(*e.args)\n    \n        if not scheme:\n            error = (\"Invalid URL {0!r}: No schema supplied. Perhaps you meant http://{0}?\")\n            error = error.format(to_native_string(url, 'utf8'))\n    \n>           raise MissingSchema(error)\nE           requests.exceptions.MissingSchema: Invalid URL 'https//api.molelive.com/api/user/snackUser/login': No schema supplied. Perhaps you meant http://https//api.molelive.com/api/user/snackUser/login?\n\nD:\\Users\\tn_chenghao.yan\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\requests\\models.py:390: MissingSchema",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "host",
+    "value" : "CYHD-L-0025"
+  }, {
+    "name" : "thread",
+    "value" : "28340-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pam1",
+    "value" : "{'pam': {'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}, 'code': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22d88a6085a0634a.json",
+  "parameterValues" : [ "{'pam': {'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}, 'code': 1}" ]
+}

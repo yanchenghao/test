@@ -1,5 +1,9 @@
 import logging
 import os
+import pytest
+
+from common import yaml_conf
+
 log_l={
     "info":logging.INFO,
     "debug":logging.DEBUG,
@@ -37,3 +41,8 @@ print(__file__)
 print(os.path.split(__file__)[-1])
 print(os.path.split(__file__)[-1].split(".")[0])
 print(os.path.dirname(__file__))
+# sd=[1,2,3]
+# @pytest.mark.parametrize("sss", sd)
+# def test_dfdf(sss):
+#     print(sss)
+# test_dfdf

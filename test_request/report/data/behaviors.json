@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_login[pam10]",
-    "uid" : "9788914c7c82d0e2",
+    "uid" : "3f839f3469436f9d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -19,21 +19,157 @@
     "retriesStatusChange" : false,
     "parameters" : [ "{'pam': {'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}, 'asertt': {'code': 1}}" ]
   }, {
-    "name" : "test_login[pam10]",
-    "uid" : "d1c432f4e196f0a7",
+    "name" : "test_login[pam]",
+    "uid" : "80f69ece3f469241",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1639141199961,
-      "stop" : 1639141201115,
-      "duration" : 1154
+      "start" : 1639230318787,
+      "stop" : 1639230318787,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 36,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "'pam'" ]
+  }, {
+    "name" : "test_login[code]",
+    "uid" : "31dc4621f284f11b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1639230319015,
+      "stop" : 1639230319015,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "'code'" ]
+  }, {
+    "name" : "test_dfdf[1]",
+    "uid" : "db02e660c9a295cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639475496970,
+      "stop" : 1639475496971,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "1" ]
+  }, {
+    "name" : "test_dfdf[2]",
+    "uid" : "f5151744ee2c2d0e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639475496980,
+      "stop" : 1639475496981,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "2" ]
+  }, {
+    "name" : "test_dfdf[3]",
+    "uid" : "8da5a29c95f72f82",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639475496990,
+      "stop" : 1639475496990,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "3" ]
+  }, {
+    "name" : "test_login[countryPhoneCode]",
+    "uid" : "dbfc32471dd5d396",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1639476433380,
+      "stop" : 1639476434785,
+      "duration" : 1405
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "'countryPhoneCode'" ]
+  }, {
+    "name" : "test_login[password]",
+    "uid" : "aa9f521899061bea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1639476435059,
+      "stop" : 1639476436233,
+      "duration" : 1174
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "'password'" ]
+  }, {
+    "name" : "test_login[phone]",
+    "uid" : "a998ef4f4dac57dc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1639476436252,
+      "stop" : 1639476437395,
+      "duration" : 1143
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "'phone'" ]
+  }, {
+    "name" : "test_login[pam10]",
+    "uid" : "d31dbe19986bd402",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639481094199,
+      "stop" : 1639481095771,
+      "duration" : 1572
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 104,
     "retriesStatusChange" : true,
-    "parameters" : [ "{'pam': {'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}, 'code': 1}" ]
+    "parameters" : [ "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
   } ]
 }

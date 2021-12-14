@@ -1,0 +1,945 @@
+{
+  "uid" : "d31dbe19986bd402",
+  "name" : "test_login[pam10]",
+  "fullName" : "testcase.login#test_login",
+  "historyId" : "d8106725fc93d2d94eb3cf4e96d470c3",
+  "time" : {
+    "start" : 1639481094199,
+    "stop" : 1639481095771,
+    "duration" : 1572
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 104,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8a89684e9b251db",
+      "name" : "log",
+      "source" : "e8a89684e9b251db.txt",
+      "type" : "text/plain",
+      "size" : 143
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "host",
+    "value" : "CYHD-L-0025"
+  }, {
+    "name" : "thread",
+    "value" : "8384-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pam1",
+    "value" : "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4f7ac1fc995999b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639478285819,
+        "stop" : 1639478287047,
+        "duration" : 1228
+      }
+    }, {
+      "uid" : "b457d82883b940a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639477883056,
+        "stop" : 1639477884480,
+        "duration" : 1424
+      }
+    }, {
+      "uid" : "afd00b54cb36dd22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639477525530,
+        "stop" : 1639477526785,
+        "duration" : 1255
+      }
+    }, {
+      "uid" : "dfdf082717940280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639477468592,
+        "stop" : 1639477469754,
+        "duration" : 1162
+      }
+    }, {
+      "uid" : "70d822003d43218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639477430684,
+        "stop" : 1639477431928,
+        "duration" : 1244
+      }
+    }, {
+      "uid" : "12afe5f50622dfb5",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'pams' is not defined",
+      "time" : {
+        "start" : 1639477409320,
+        "stop" : 1639477409320,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ca41de73678e5e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639477241496,
+        "stop" : 1639477243877,
+        "duration" : 2381
+      }
+    }, {
+      "uid" : "6f87659c59a1d1b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639477129731,
+        "stop" : 1639477130983,
+        "duration" : 1252
+      }
+    }, {
+      "uid" : "d5cc80eb2eee2e8c",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'code'",
+      "time" : {
+        "start" : 1639477051668,
+        "stop" : 1639477052873,
+        "duration" : 1205
+      }
+    }, {
+      "uid" : "21834e20b93c9c52",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'code'",
+      "time" : {
+        "start" : 1639476656938,
+        "stop" : 1639476658218,
+        "duration" : 1280
+      }
+    }, {
+      "uid" : "b65eb52041761e5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639475654709,
+        "stop" : 1639475656873,
+        "duration" : 2164
+      }
+    }, {
+      "uid" : "fa8af1112d1cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639475539559,
+        "stop" : 1639475540831,
+        "duration" : 1272
+      }
+    }, {
+      "uid" : "708c4786132ba92f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639474877725,
+        "stop" : 1639474878988,
+        "duration" : 1263
+      }
+    }, {
+      "uid" : "91880534a7f1be09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639474843383,
+        "stop" : 1639474844573,
+        "duration" : 1190
+      }
+    }, {
+      "uid" : "95dd5f942a4cad52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639474777037,
+        "stop" : 1639474778322,
+        "duration" : 1285
+      }
+    }, {
+      "uid" : "504f0a48e46dbae1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639474644113,
+        "stop" : 1639474646249,
+        "duration" : 2136
+      }
+    }, {
+      "uid" : "6ceb2ec50a8f6b38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639474587511,
+        "stop" : 1639474588812,
+        "duration" : 1301
+      }
+    }, {
+      "uid" : "c7c9fa0b16ce920a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639474455144,
+        "stop" : 1639474456410,
+        "duration" : 1266
+      }
+    }, {
+      "uid" : "a4153525858d5aa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639473712650,
+        "stop" : 1639473714018,
+        "duration" : 1368
+      }
+    }, {
+      "uid" : "e86f2071d6a39490",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639472943620,
+        "stop" : 1639472944975,
+        "duration" : 1355
+      }
+    }, {
+      "uid" : "d99877f3c29a0334",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639472736444,
+        "stop" : 1639472737796,
+        "duration" : 1352
+      }
+    }, {
+      "uid" : "cc1410385ec20369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639470720808,
+        "stop" : 1639470722164,
+        "duration" : 1356
+      }
+    }, {
+      "uid" : "deadb8170e381698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639470346305,
+        "stop" : 1639470347668,
+        "duration" : 1363
+      }
+    }, {
+      "uid" : "4b78e0bbfab6dac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639470085741,
+        "stop" : 1639470088854,
+        "duration" : 3113
+      }
+    }, {
+      "uid" : "cd9b0472ad04fab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639470062338,
+        "stop" : 1639470064487,
+        "duration" : 2149
+      }
+    }, {
+      "uid" : "92216f71e3f9afb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639470032045,
+        "stop" : 1639470034278,
+        "duration" : 2233
+      }
+    }, {
+      "uid" : "eb78f4de14583a7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 100000 == 1",
+      "time" : {
+        "start" : 1639469973655,
+        "stop" : 1639469976531,
+        "duration" : 2876
+      }
+    }, {
+      "uid" : "4a31208d18c89e56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469459883,
+        "stop" : 1639469462142,
+        "duration" : 2259
+      }
+    }, {
+      "uid" : "837ae1c4dc32f922",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469412188,
+        "stop" : 1639469413457,
+        "duration" : 1269
+      }
+    }, {
+      "uid" : "c6c711e8d1720821",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469403943,
+        "stop" : 1639469405207,
+        "duration" : 1264
+      }
+    }, {
+      "uid" : "3ef473d20a556608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469349281,
+        "stop" : 1639469350375,
+        "duration" : 1094
+      }
+    }, {
+      "uid" : "2b9d999409828a85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469343879,
+        "stop" : 1639469345103,
+        "duration" : 1224
+      }
+    }, {
+      "uid" : "20c4443f989c13af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469308161,
+        "stop" : 1639469309325,
+        "duration" : 1164
+      }
+    }, {
+      "uid" : "86d40c5860ceeb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469297683,
+        "stop" : 1639469298926,
+        "duration" : 1243
+      }
+    }, {
+      "uid" : "c70673106c159458",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469247591,
+        "stop" : 1639469248753,
+        "duration" : 1162
+      }
+    }, {
+      "uid" : "d65b8cd88c48c2cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469219611,
+        "stop" : 1639469220793,
+        "duration" : 1182
+      }
+    }, {
+      "uid" : "4efe6f682a082cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469191652,
+        "stop" : 1639469193708,
+        "duration" : 2056
+      }
+    }, {
+      "uid" : "75a42fce5d73df91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469105555,
+        "stop" : 1639469106814,
+        "duration" : 1259
+      }
+    }, {
+      "uid" : "731da07843dd4cb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639469033047,
+        "stop" : 1639469034263,
+        "duration" : 1216
+      }
+    }, {
+      "uid" : "70294a09e9f20d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639468994417,
+        "stop" : 1639468995703,
+        "duration" : 1286
+      }
+    }, {
+      "uid" : "973c653fa8cdcca3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1639468972078,
+        "stop" : 1639468972078,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "861ae5e0dd6a71a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639468513035,
+        "stop" : 1639468514242,
+        "duration" : 1207
+      }
+    }, {
+      "uid" : "84c565ace2ab9e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639468453310,
+        "stop" : 1639468454418,
+        "duration" : 1108
+      }
+    }, {
+      "uid" : "97296cca4146ff06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639468426767,
+        "stop" : 1639468428101,
+        "duration" : 1334
+      }
+    }, {
+      "uid" : "b727e3c3db8d42dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639468210570,
+        "stop" : 1639468211796,
+        "duration" : 1226
+      }
+    }, {
+      "uid" : "a88cc6b1d653043e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639468188957,
+        "stop" : 1639468190290,
+        "duration" : 1333
+      }
+    }, {
+      "uid" : "3ec801ce791e23bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639468079628,
+        "stop" : 1639468080902,
+        "duration" : 1274
+      }
+    }, {
+      "uid" : "6acbfee65113a2a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639467997874,
+        "stop" : 1639467999138,
+        "duration" : 1264
+      }
+    }, {
+      "uid" : "b5d8ee2922bbc42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639467934542,
+        "stop" : 1639467935756,
+        "duration" : 1214
+      }
+    }, {
+      "uid" : "88156e56c1636a5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639467883926,
+        "stop" : 1639467886707,
+        "duration" : 2781
+      }
+    }, {
+      "uid" : "50e9cc152585f081",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639467722666,
+        "stop" : 1639467724071,
+        "duration" : 1405
+      }
+    }, {
+      "uid" : "2798b05dd292f24f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639467454595,
+        "stop" : 1639467455854,
+        "duration" : 1259
+      }
+    }, {
+      "uid" : "7d394f5af8bc558a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639467188152,
+        "stop" : 1639467189433,
+        "duration" : 1281
+      }
+    }, {
+      "uid" : "2e6ed7e5a7fa33c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639467017734,
+        "stop" : 1639467018938,
+        "duration" : 1204
+      }
+    }, {
+      "uid" : "be1d528ab419764c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639466885120,
+        "stop" : 1639466887354,
+        "duration" : 2234
+      }
+    }, {
+      "uid" : "2bd54c05e86cb43b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639466348920,
+        "stop" : 1639466350174,
+        "duration" : 1254
+      }
+    }, {
+      "uid" : "db81695c87313fed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639466011536,
+        "stop" : 1639466012834,
+        "duration" : 1298
+      }
+    }, {
+      "uid" : "47984177b21f1768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639465762019,
+        "stop" : 1639465764383,
+        "duration" : 2364
+      }
+    }, {
+      "uid" : "68a9ba86b164519e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639465097958,
+        "stop" : 1639465099426,
+        "duration" : 1468
+      }
+    }, {
+      "uid" : "150d392039a3ddc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639458227613,
+        "stop" : 1639458228887,
+        "duration" : 1274
+      }
+    }, {
+      "uid" : "c3bbdb8fa6a2c95c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639230372463,
+        "stop" : 1639230373548,
+        "duration" : 1085
+      }
+    }, {
+      "uid" : "6b3612fa67ba83ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639230330149,
+        "stop" : 1639230331338,
+        "duration" : 1189
+      }
+    }, {
+      "uid" : "f425fe39e6e3fed1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639230249948,
+        "stop" : 1639230251295,
+        "duration" : 1347
+      }
+    }, {
+      "uid" : "24eac4c0e25547e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639228799999,
+        "stop" : 1639228801184,
+        "duration" : 1185
+      }
+    }, {
+      "uid" : "5a7b8933e8989a2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639226589292,
+        "stop" : 1639226590492,
+        "duration" : 1200
+      }
+    }, {
+      "uid" : "15468feb18b979e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639226147319,
+        "stop" : 1639226148602,
+        "duration" : 1283
+      }
+    }, {
+      "uid" : "22d88a6085a0634a",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.MissingSchema: Invalid URL 'https//api.molelive.com/api/user/snackUser/login': No schema supplied. Perhaps you meant http://https//api.molelive.com/api/user/snackUser/login?",
+      "time" : {
+        "start" : 1639226008493,
+        "stop" : 1639226008496,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "7bee92097cd4fedf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639141199961,
+        "stop" : 1639141201115,
+        "duration" : 1154
+      }
+    }, {
+      "uid" : "803e6a47596591cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639141179914,
+        "stop" : 1639141181184,
+        "duration" : 1270
+      }
+    }, {
+      "uid" : "fc3d4097803324b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got multiple values for argument 'method'",
+      "time" : {
+        "start" : 1639141095449,
+        "stop" : 1639141095449,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "16fb87853a8c49e8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got multiple values for argument 'method'",
+      "time" : {
+        "start" : 1639141040325,
+        "stop" : 1639141040325,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97f06d0631367317",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got multiple values for argument 'method'",
+      "time" : {
+        "start" : 1639140839405,
+        "stop" : 1639140839406,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "622e7af9e67092f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got multiple values for argument 'method'",
+      "time" : {
+        "start" : 1639140717296,
+        "stop" : 1639140717296,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "74968f6300839a9d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got multiple values for argument 'method'",
+      "time" : {
+        "start" : 1639140408974,
+        "stop" : 1639140408974,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "40929d6ab236e7b9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got an unexpected keyword argument 'http_method'",
+      "time" : {
+        "start" : 1639140342199,
+        "stop" : 1639140342200,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a077f3b99ebfca8e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got an unexpected keyword argument 'http_method'",
+      "time" : {
+        "start" : 1639140193778,
+        "stop" : 1639140193778,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c88da99ac8e0313",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'data'",
+      "time" : {
+        "start" : 1639140030443,
+        "stop" : 1639140030444,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c1479fdc8e06219d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got an unexpected keyword argument 'http_method'",
+      "time" : {
+        "start" : 1639139962500,
+        "stop" : 1639139962501,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b9a79128a9c83688",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'data'",
+      "time" : {
+        "start" : 1639139940206,
+        "stop" : 1639139940206,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5ae3dbd9bafc35e0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'data'",
+      "time" : {
+        "start" : 1639139839846,
+        "stop" : 1639139839847,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b9ba8872754fa52c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'data'",
+      "time" : {
+        "start" : 1639139793120,
+        "stop" : 1639139793120,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a230bf1ac1af8cfd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got multiple values for argument 'headers'",
+      "time" : {
+        "start" : 1639139756841,
+        "stop" : 1639139756842,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8f535f8d1598fe02",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'data'",
+      "time" : {
+        "start" : 1639139746457,
+        "stop" : 1639139746458,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e665177cffdf4c89",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'url'",
+      "time" : {
+        "start" : 1639139728543,
+        "stop" : 1639139728543,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97c4a230d51b8429",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() got an unexpected keyword argument 'headers'",
+      "time" : {
+        "start" : 1639139663626,
+        "stop" : 1639139663627,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "676fac161ce5d66a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'url'",
+      "time" : {
+        "start" : 1639139643992,
+        "stop" : 1639139643992,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6e52752bed5ad1ed",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'url'",
+      "time" : {
+        "start" : 1639139599367,
+        "stop" : 1639139599367,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d25202375fc6872c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'url'",
+      "time" : {
+        "start" : 1639139568104,
+        "stop" : 1639139568104,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b683fb9ba4d84355",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'data'",
+      "time" : {
+        "start" : 1639139412074,
+        "stop" : 1639139412074,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "116eb02428227fbb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() got multiple values for argument 'url'",
+      "time" : {
+        "start" : 1639139374740,
+        "stop" : 1639139374741,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9ed93dca70cbd518",
+      "status" : "broken",
+      "statusDetails" : "TypeError: post() takes from 1 to 3 positional arguments but 5 were given",
+      "time" : {
+        "start" : 1639139139561,
+        "stop" : 1639139139561,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "22cc2ecc61dfc2c3",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'red' referenced before assignment",
+      "time" : {
+        "start" : 1639139071081,
+        "stop" : 1639139071088,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "2cc9053988693a9e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: request() missing 2 required positional arguments: 'param' and 'data'",
+      "time" : {
+        "start" : 1639138876197,
+        "stop" : 1639138876197,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a3348b03a3a5cd1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: http_request() missing 2 required positional arguments: 'param' and 'data'",
+      "time" : {
+        "start" : 1639138854296,
+        "stop" : 1639138854296,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d042826e009dbde3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'HttpRequest' object has no attribute 'http_requests'",
+      "time" : {
+        "start" : 1639138740598,
+        "stop" : 1639138740598,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e2601626a6ad452",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'HttpRequest' has no attribute 'http_requests'",
+      "time" : {
+        "start" : 1639138676610,
+        "stop" : 1639138676610,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7d4da7533229a966",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'HttpRequest' has no attribute 'http_requests'",
+      "time" : {
+        "start" : 1639138637283,
+        "stop" : 1639138637283,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b15831fc594357dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639137382799,
+        "stop" : 1639137384078,
+        "duration" : 1279
+      }
+    }, {
+      "uid" : "ebd8937aba2c2698",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 200 == 1\n  +200\n  -1",
+      "time" : {
+        "start" : 1639137357226,
+        "stop" : 1639137358439,
+        "duration" : 1213
+      }
+    }, {
+      "uid" : "67d5b08fb573440a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639137075500,
+        "stop" : 1639137076727,
+        "duration" : 1227
+      }
+    }, {
+      "uid" : "a18e0c9cefc6302f",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'code'",
+      "time" : {
+        "start" : 1639137001297,
+        "stop" : 1639137002610,
+        "duration" : 1313
+      }
+    }, {
+      "uid" : "433ed95cbbf21838",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not subscriptable",
+      "time" : {
+        "start" : 1639136953726,
+        "stop" : 1639136954930,
+        "duration" : 1204
+      }
+    }, {
+      "uid" : "4cab296af96e21a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639136814094,
+        "stop" : 1639136815446,
+        "duration" : 1352
+      }
+    }, {
+      "uid" : "1fb019c77a937724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639136699321,
+        "stop" : 1639136700614,
+        "duration" : 1293
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d31dbe19986bd402.json",
+  "parameterValues" : [ "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
+}

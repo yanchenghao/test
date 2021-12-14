@@ -1,5 +1,98 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: string indices must be integers",
+      "children" : [ {
+        "name" : "test_login[pam]",
+        "uid" : "80f69ece3f469241",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639230318787,
+          "stop" : 1639230318787,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'pam'" ]
+      }, {
+        "name" : "test_login[code]",
+        "uid" : "31dc4621f284f11b",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639230319015,
+          "stop" : 1639230319015,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'code'" ]
+      }, {
+        "name" : "test_login[countryPhoneCode]",
+        "uid" : "dbfc32471dd5d396",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639476433380,
+          "stop" : 1639476434785,
+          "duration" : 1405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'countryPhoneCode'" ]
+      }, {
+        "name" : "test_login[password]",
+        "uid" : "aa9f521899061bea",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639476435059,
+          "stop" : 1639476436233,
+          "duration" : 1174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'password'" ]
+      }, {
+        "name" : "test_login[phone]",
+        "uid" : "a998ef4f4dac57dc",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639476436252,
+          "stop" : 1639476437395,
+          "duration" : 1143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'phone'" ]
+      } ],
+      "uid" : "72c0936964a9b2fe1cfe23cf31d1b5b6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
