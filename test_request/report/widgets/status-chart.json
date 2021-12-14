@@ -1,10 +1,10 @@
 [ {
-  "uid" : "ca030652472525b2",
+  "uid" : "ace3b9182f7c1986",
   "name" : "test_login[pam10]",
   "time" : {
-    "start" : 1639482379838,
-    "stop" : 1639482381071,
-    "duration" : 1233
+    "start" : 1639483154073,
+    "stop" : 1639483155205,
+    "duration" : 1132
   },
   "status" : "passed",
   "severity" : "normal"

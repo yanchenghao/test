@@ -6,7 +6,7 @@ from os.path import *
 extrayaml = dirname(abspath(__file__)) + sep + "extract.yaml"
 #提取yaml文件数据
 def yaml_load(yaml_path):
-    with open(yaml_path, "r", encoding="utf8") as f:
+    with open(yaml_path, "r", encoding="utf-8") as f:
        sd=yaml.load(f,Loader=yaml.FullLoader)
        print(sd)
        return sd

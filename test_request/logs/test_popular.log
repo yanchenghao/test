@@ -1,0 +1,42 @@
+2021-12-14 21:40:45,569 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:40:45,570 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:40:47,055 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:40:47,055 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:40:48,186 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:40:48,186 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:40:49,403 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:40:49,403 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:40:50,642 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:40:50,642 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:40:51,893 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:40:51,893 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:40:53,103 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:40:53,103 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:44:23,118 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:44:23,118 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:49:00,356 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:49:00,356 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:51:42,821 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:51:42,821 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:52:16,161 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:52:16,161 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:54:39,299 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:54:39,300 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:55:13,513 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:55:13,514 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:55:57,721 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:55:57,722 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:58:29,784 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:58:29,784 - test - INFO - 当前的测试参数[{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}]
+2021-12-14 21:59:21,150 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:59:21,151 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 21:59:22,316 - test - INFO - 当前url:https://api.molelive.com/api/content/index/all
+2021-12-14 21:59:22,318 - test - INFO - 当前的测试参数['popular']
+2021-12-14 21:59:57,163 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 21:59:57,164 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 21:59:58,441 - test - INFO - 当前url:https://api.molelive.com/api/content/index/all
+2021-12-14 21:59:58,442 - test - INFO - 当前的测试参数['popular']
+2021-12-14 22:00:56,268 - test - INFO - 当前url:https://api.molelive.com/api/user/snackUser/login
+2021-12-14 22:00:56,269 - test - INFO - 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2021-12-14 22:00:57,392 - test - INFO - 当前url:https://api.molelive.com/api/content/index/all
+2021-12-14 22:00:57,392 - test - INFO - 当前的测试参数popular

@@ -1,8 +1,13 @@
 import yaml
 from common import yaml_conf
 import os
-a=yaml_conf.yaml_load("./config/conf.yaml")
-
+print("获取配置文件")
+basedir = os.path.dirname(__file__)
+print("basedir:" + basedir)
+# a=yaml_conf.yaml_load("C:/Users/tn_chenghao.yan/PycharmProjects/pythonProject/test_request/config/conf.yaml")
+# a=yaml_conf.yaml_load("./config/conf.yaml")
+a=yaml_conf.yaml_load(basedir+os.sep+"conf.yaml")
+print(a)
 def get_host():
     host=a["base"]["host"]
     print(host)

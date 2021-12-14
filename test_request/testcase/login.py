@@ -11,9 +11,12 @@ host=conf.get_host()
 log_level=conf.get_level()
 log_exsion=conf.get_extension()
 print(__file__)
+print(os.path.dirname(__file__))
+print(os.path.dirname(os.path.dirname(__file__)))
+dir=os.path.dirname(os.path.dirname(__file__))
 name=os.path.split(__file__)[-1].split(".")[0]
 log_path=name+log_exsion
-logger1= log_config.Logger("logs/" + log_path, "test", log_level)
+logger1= log_config.Logger(dir+"/logs/" + log_path, "test", log_level)
 path="/api/user/snackUser/login"
 
 url1=protocol+host+path
