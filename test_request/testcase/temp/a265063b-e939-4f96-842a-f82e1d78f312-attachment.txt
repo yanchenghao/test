@@ -1,0 +1,4 @@
+INFO     test:test_popular.py:33 当前url:https://api.molelive.com/api/user/snackUser/login
+INFO     test:test_popular.py:34 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+INFO     test:test_popular.py:58 当前url:https://api.molelive.com/api/content/index/all
+INFO     test:test_popular.py:59 当前的测试参数{'type': 'popular'}

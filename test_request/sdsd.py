@@ -1,39 +1,31 @@
-import os
-from common import yaml_conf
-class a:
-    def sds(self,sd):
-        print(sd)
-path=os.getcwd()
-path1=os.path.abspath(__file__)
-path2=os.path.dirname(path1)
-path3=os.path.dirname(path2)
-print(path)
-print(path1)
-print(path2)
-print(path3)
-print(type(path))
-header={"country": "CN",
+import requests
+
+
+
+header={
+"country": "CN",
 "language": "en",
-"appversionname": "1.0",
-"appversioncode": "2",
-"packagename": "com.mole.talktalk",
-"packagechannel": "",
-"curpackagechannel": "",
-"appplatform": "1",
-"authorization": "",
-"deviceid": "8c154773-5b9a-4b25-bfd9-bf488b7643b9",
-"brand": "Infinix",
-"model": "Infinix X687",
-"sdkint": "29",
-"netquality": "",
-"nettype": "WIFI",
-"content-type": "application/json; charset=UTF-8",
-"content-length": "91",
-"accept-encoding": "gzip",
-"user-agent": "okhttp/3.14.9"}
-yaml_conf.yaml_clear()
-yaml_conf.yaml_dump(header)
-a=yaml_conf.yaml_load("./common/extract.yaml")
-print(a["brand"])
-
-
+"appVersionName": "1.0.1",
+"appVersionCode": "7",
+"packageName": "com.mole.talktalk",
+"packageChannel": "google",
+"curPackageChannel": "google",
+"appPlatform": "1",
+"Authorization": "7NPZMsDsnIIMBI7shC0AYeeBzPjPvB8PbKdEE+j+H0iubPJxtGs5dDP4Ze178yW5",
+# "Authorization": "h8pIYs+niv4dLK3By6vIFXgpXsEH6uIr1Y9lbhRAveWubPJxtGs5dDP4Ze178yW5",
+"deviceId": "8c154773-5b9a-4b25-bfd9-bf488b7643b9",
+# "deviceId": "1e985fc9-08d7-494f-89f8-1824f581946b",
+"brand": "TECNO",
+"model": "TECNO CG8",
+"sdkInt": "30",
+# "netQuality": "netType: WIFI",
+"Content-Type": "application/json",
+"Host": "apitest.molelive.com",
+"Accept-Encoding": "gzip",
+"User-Agent": "okhttp/3.14.9",
+"Connection": "keep-alive"}
+url="http://api.molelive.com/api/content/index/all"
+# url="http://apitest.molelive.com/api/content/index/all"
+param={"type":"popular"}
+r1=requests.get(url,params=param,headers=header)
+print(r1.text)

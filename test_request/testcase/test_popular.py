@@ -1,4 +1,5 @@
 import pytest
+import requests
 from common import log_config
 from common import http_requests
 from common import yaml_conf
@@ -44,21 +45,57 @@ def login():
 
 path = "/api/content/index/all"
 url1=protocol+host+path
+print(url1)
 data=yaml_conf.yaml_load(dir+"/data/all.yaml")
 params=data["type"][0]
 print("sdsdsd")
-print(params)
-print(params)
+
+
 # @pytest.mark.parametrize("pam1", params)
 def test_popular(login):
     print("222222222")
     print(login)
     header["authorization"] = login
+    header1 = {
+        "country": "CN",
+        "language": "en",
+        "appVersionName": "1.0.1",
+        "appVersionCode": "7",
+        "packageName": "com.mole.talktalk",
+        "packageChannel": "google",
+        "curPackageChannel": "google",
+        "appPlatform": "1",
+        "Authorization": "7NPZMsDsnIIMBI7shC0AYeeBzPjPvB8PbKdEE+j+H0iubPJxtGs5dDP4Ze178yW5",
+        # "Authorization": "h8pIYs+niv4dLK3By6vIFXgpXsEH6uIr1Y9lbhRAveWubPJxtGs5dDP4Ze178yW5",
+        "deviceId": "8c154773-5b9a-4b25-bfd9-bf488b7643b9",
+        # "deviceId": "1e985fc9-08d7-494f-89f8-1824f581946b",
+        "brand": "TECNO",
+        "model": "TECNO CG8",
+        "sdkInt": "30",
+        # "netQuality": "netType: WIFI",
+        "Content-Type": "application/json",
+        "Host": "apitest.molelive.com",
+        "Accept-Encoding": "gzip",
+        "User-Agent": "okhttp/3.14.9",
+        "Connection": "keep-alive"}
+
+    print(params)
+    print(url1)
+    print(header)
+    print(header1)
     logger1.logger.info("当前url:" + url1)
+    # url="http://api.molelive.com/api/content/index/all"
     logger1.logger.info("当前的测试参数"+str(params))
     # print(pams)
-    r1=request1.request(url1,headers=header,params="popular",http_method="get",timeout=5,verify=False)
-    assert r1["body"]["code"] == data["code"]
-    assert r1["code"] == 200
+    #r1=request1.request(url1,headers=header,param=params,http_method="get",timeout=5,verify=False)
+    r1=requests.get(url1,params=params,headers=header)
+    # assert r1["body"]["code"] == data["code"]
+    # assert r1["code"] == 200
+    print(r1.content)
+    print(r1.url)
+    print(header)
+    print(r1.request)
+    print(r1.text)
+    assert  r1.status_code==200
 
 
