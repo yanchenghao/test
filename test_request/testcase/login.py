@@ -21,18 +21,27 @@ path="/api/user/snackUser/login"
 
 url1=protocol+host+path
 header=yaml_conf.yaml_load("./data/header.yaml")
-data=yaml_conf.yaml_load("./data/login.yaml")
-params=data["pam"]
-print(params)
-@pytest.mark.parametrize("pam1", params)
+data=yaml_conf.get_yaml_data("./data/login.yaml")
+# data=yaml_conf.yaml_load("./data/login.yaml")
+# print("11111111")
+# print(data)
+# list=[]
+# for a in data:
+#   list.append(a["data"])
+# print(list)
+# params=data["pam"]
+# print(params)
+@pytest.mark.parametrize("pam1", data)
 def test_login(pam1):
 	# pams=pam1["pam"]
-	print(pam1)
+    #  print(pam1)
 	logger1.logger.info("当前url:" + url1)
+	print(pam1)
 	logger1.logger.info("当前的测试参数"+str(pam1))
 	# print(pams)
 	r1=request1.request(url1,headers=header,json=pam1,http_method="post",timeout=5,verify=False)
-	assert r1["body"]["code"]==data["code"]
+	print(r1)
+	assert r1["body"]["code"]==1
 	assert r1["code"]==200
 
 	# r1 = requests.post(url1, headers=header,json=pams, timeout=5,verify=False)

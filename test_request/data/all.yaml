@@ -1,4 +1,8 @@
-type:
-   -
-    type: "popular"
-code: 1
+-
+  data:
+     type: "popular"
+  code: 1
+-
+  data:
+      type: "new"
+  code: 1

@@ -10,6 +10,15 @@ def yaml_load(yaml_path):
        sd=yaml.load(f,Loader=yaml.FullLoader)
        print(sd)
        return sd
+#提取测试参数
+def get_yaml_data(yaml_path):
+    with open(yaml_path, "r", encoding="utf-8") as f:
+       sd=yaml.load(f,Loader=yaml.FullLoader)
+       print(sd)
+    list=[]
+    for a in sd:
+        list.append(a["data"])
+    return list
 #将字典，生成yaml文件
 def yaml_dump(extract_dict):
     with open(extrayaml,"a") as f:

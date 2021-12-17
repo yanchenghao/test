@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "testcase",
     "children" : [ {
-      "name" : "login",
+      "name" : "test_popular",
       "children" : [ {
-        "name" : "test_login[pam10]",
-        "uid" : "ace3b9182f7c1986",
-        "parentUid" : "20d242b98a8d7cb01f501a301bf1836e",
+        "name" : "test_popular[params0]",
+        "uid" : "8672cfe4eb30e8b3",
+        "parentUid" : "88d01cdb4a63882048595a7f0b739d90",
         "status" : "passed",
         "time" : {
-          "start" : 1639483154073,
-          "stop" : 1639483155205,
-          "duration" : 1132
+          "start" : 1639664068446,
+          "stop" : 1639664069980,
+          "duration" : 1534
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,9 +21,26 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
+        "parameters" : [ "{'type': {'type': 'popular'}, 'code': 1}" ]
+      }, {
+        "name" : "test_popular[params1]",
+        "uid" : "9f712cc0ff4f4212",
+        "parentUid" : "88d01cdb4a63882048595a7f0b739d90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639664071127,
+          "stop" : 1639664072377,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'type': {'type': 'new'}, 'code': 1}" ]
       } ],
-      "uid" : "20d242b98a8d7cb01f501a301bf1836e"
+      "uid" : "88d01cdb4a63882048595a7f0b739d90"
     } ],
     "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
   } ]

@@ -1,10 +1,20 @@
 [ {
-  "uid" : "ace3b9182f7c1986",
-  "name" : "test_login[pam10]",
+  "uid" : "8672cfe4eb30e8b3",
+  "name" : "test_popular[params0]",
   "time" : {
-    "start" : 1639483154073,
-    "stop" : 1639483155205,
-    "duration" : 1132
+    "start" : 1639664068446,
+    "stop" : 1639664069980,
+    "duration" : 1534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f712cc0ff4f4212",
+  "name" : "test_popular[params1]",
+  "time" : {
+    "start" : 1639664071127,
+    "stop" : 1639664072377,
+    "duration" : 1250
   },
   "status" : "passed",
   "severity" : "normal"

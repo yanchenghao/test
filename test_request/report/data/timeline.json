@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "CYHD-L-0025",
     "children" : [ {
-      "name" : "2460-MainThread",
+      "name" : "10084-MainThread",
       "children" : [ {
-        "name" : "test_login[pam10]",
-        "uid" : "ace3b9182f7c1986",
-        "parentUid" : "2179385bf84a6243f8be6faa2bdba5da",
+        "name" : "test_popular[params0]",
+        "uid" : "8672cfe4eb30e8b3",
+        "parentUid" : "9a3e908fe1f4804f4913ea8cc7e97401",
         "status" : "passed",
         "time" : {
-          "start" : 1639483154073,
-          "stop" : 1639483155205,
-          "duration" : 1132
+          "start" : 1639664068446,
+          "stop" : 1639664069980,
+          "duration" : 1534
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,9 +21,26 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
+        "parameters" : [ "{'type': {'type': 'popular'}, 'code': 1}" ]
+      }, {
+        "name" : "test_popular[params1]",
+        "uid" : "9f712cc0ff4f4212",
+        "parentUid" : "9a3e908fe1f4804f4913ea8cc7e97401",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639664071127,
+          "stop" : 1639664072377,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'type': {'type': 'new'}, 'code': 1}" ]
       } ],
-      "uid" : "2179385bf84a6243f8be6faa2bdba5da"
+      "uid" : "9a3e908fe1f4804f4913ea8cc7e97401"
     } ],
     "uid" : "bc6d4cc1409fd32dd4b3458c41d9d8ad"
   } ]
