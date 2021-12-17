@@ -27,8 +27,7 @@ def login():
     url1=protocol+host+path
     data=yaml_conf.yaml_load(dir+"/data/login.yaml")
     print(data)
-    paramlist=data[0]["data"]
-    params=paramlist
+    params=data[0]["data"]#取正确的用例让其执行成功
     print("444444444")
     print(params)
     print(params)
@@ -47,22 +46,28 @@ def login():
 path = "/api/content/index/all"
 url1=protocol+host+path
 print(url1)
-data=yaml_conf.yaml_load(dir+"/data/all.yaml")
-print(data)
-list=[]
-for a in data:
-  list.append(a["data"])
+# data=yaml_conf.yaml_load(dir+"/data/all.yaml")
+# print(data)
+# list=[]
+# for a in data:
+#   list.append(a["data"])
+# print(list)
+list=yaml_conf.get_yaml_data(dir+"/data/all.yaml")
+#[[{'type': 'popular'}, {'code': 1}], [{'type': 'new'}, {'code': 1}]]
 print(list)
-print(data[0])
+# print(data[0])
 # params=data["type"][0]
 # params1=data["type"]
 print("1111")
 print("sdsdsd")
 # print(params1)
-@pytest.mark.parametrize("params", list)
-def test_popular(login,params):
+#params,check分别对应{'type': 'popular'}，{'code': 1}，
+#@pytest.mark.parametrize会把用例列表中多个参数对应
+@pytest.mark.parametrize("params,check", list)
+def test_popular(login,params,check):
     # params=params["type"]
     # print(params)
+    # params=params["data"]
     print("222222222")
     print(login)
     header["authorization"] = login
@@ -72,12 +77,14 @@ def test_popular(login,params):
     logger1.logger.info("当前url:" + url1)
     # url="http://api.molelive.com/api/content/index/all"
     logger1.logger.info("当前的测试参数"+str(params))
+    logger1.logger.info("当前的check" + str(check))
     # print(pams)
     r1=request1.request(url1,headers=header,params=params,http_method="get",timeout=5,verify=False)
     # r1=requests.get(url1,params=params,headers=header)
     # logger1.logger.info(r1["body"])
+    logger1.logger.info("当前的返回结果" + str(r1))
     print(r1)
-    # assert r1["body"]["code"] == data["body"]
+    assert r1["body"]["code"] == check["code"]
     assert r1["code"] == 200
     # print(r1.content)
     # print(r1.url)

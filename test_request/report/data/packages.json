@@ -4,14 +4,14 @@
   "children" : [ {
     "name" : "testcase.test_popular",
     "children" : [ {
-      "name" : "test_popular[params0]",
-      "uid" : "8672cfe4eb30e8b3",
+      "name" : "test_popular[params0-check0]",
+      "uid" : "4a0b74e5d3dc7722",
       "parentUid" : "ced493f99b2691b883636bd48a9d26a1",
       "status" : "passed",
       "time" : {
-        "start" : 1639664068446,
-        "stop" : 1639664069980,
-        "duration" : 1534
+        "start" : 1639749196891,
+        "stop" : 1639749198028,
+        "duration" : 1137
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,16 +19,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "{'type': {'type': 'popular'}, 'code': 1}" ]
+      "parameters" : [ "{'code': 1}", "{'type': 'popular'}" ]
     }, {
-      "name" : "test_popular[params1]",
-      "uid" : "9f712cc0ff4f4212",
+      "name" : "test_popular[params1-check1]",
+      "uid" : "e8d6e10bb8d48579",
       "parentUid" : "ced493f99b2691b883636bd48a9d26a1",
       "status" : "passed",
       "time" : {
-        "start" : 1639664071127,
-        "stop" : 1639664072377,
-        "duration" : 1250
+        "start" : 1639749199234,
+        "stop" : 1639749200355,
+        "duration" : 1121
       },
       "flaky" : false,
       "newFailed" : false,
@@ -36,7 +36,7 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "{'type': {'type': 'new'}, 'code': 1}" ]
+      "parameters" : [ "{'code': 1}", "{'type': 'new'}" ]
     } ],
     "uid" : "testcase.test_popular"
   } ]

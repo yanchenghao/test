@@ -1,0 +1,94 @@
+{
+  "uid" : "e8d6e10bb8d48579",
+  "name" : "test_popular[params1-check1]",
+  "fullName" : "testcase.test_popular#test_popular",
+  "historyId" : "23cc6d22d15e4d0ef0249a731b7cc6ba",
+  "time" : {
+    "start" : 1639749199234,
+    "stop" : 1639749200355,
+    "duration" : 1121
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1639749198047,
+      "stop" : 1639749199233,
+      "duration" : 1186
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b7e508f6edfcf38",
+      "name" : "log",
+      "source" : "7b7e508f6edfcf38.txt",
+      "type" : "text/plain",
+      "size" : 14406
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_popular"
+  }, {
+    "name" : "host",
+    "value" : "CYHD-L-0025"
+  }, {
+    "name" : "thread",
+    "value" : "31056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_popular"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "check",
+    "value" : "{'code': 1}"
+  }, {
+    "name" : "params",
+    "value" : "{'type': 'new'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8d6e10bb8d48579.json",
+  "parameterValues" : [ "{'code': 1}", "{'type': 'new'}" ]
+}
