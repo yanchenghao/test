@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "CYHD-L-0025",
     "children" : [ {
-      "name" : "31056-MainThread",
+      "name" : "34384-MainThread",
       "children" : [ {
-        "name" : "test_popular[params1-check1]",
-        "uid" : "e8d6e10bb8d48579",
-        "parentUid" : "3d718ee7a5182b70245632475468f3f7",
+        "name" : "test_login[params1-check1]",
+        "uid" : "482a5acb4adf46c0",
+        "parentUid" : "e81e8c5a72a6da83e6980b39dbb3d727",
         "status" : "passed",
         "time" : {
-          "start" : 1639749199234,
-          "stop" : 1639749200355,
-          "duration" : 1121
+          "start" : 1639803284837,
+          "stop" : 1639803285949,
+          "duration" : 1112
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,16 +21,16 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'code': 1}", "{'type': 'new'}" ]
+        "parameters" : [ "{'code': 1}", "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555556'}" ]
       }, {
-        "name" : "test_popular[params0-check0]",
-        "uid" : "4a0b74e5d3dc7722",
-        "parentUid" : "3d718ee7a5182b70245632475468f3f7",
+        "name" : "test_login[params0-check0]",
+        "uid" : "acdf1a2b5b4141e5",
+        "parentUid" : "e81e8c5a72a6da83e6980b39dbb3d727",
         "status" : "passed",
         "time" : {
-          "start" : 1639749196891,
-          "stop" : 1639749198028,
-          "duration" : 1137
+          "start" : 1639803283419,
+          "stop" : 1639803284826,
+          "duration" : 1407
         },
         "flaky" : false,
         "newFailed" : false,
@@ -38,9 +38,9 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'code': 1}", "{'type': 'popular'}" ]
+        "parameters" : [ "{'code': 1}", "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
       } ],
-      "uid" : "3d718ee7a5182b70245632475468f3f7"
+      "uid" : "e81e8c5a72a6da83e6980b39dbb3d727"
     } ],
     "uid" : "bc6d4cc1409fd32dd4b3458c41d9d8ad"
   } ]

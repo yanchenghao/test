@@ -18,6 +18,8 @@ log_path=name+log_exsion
 dir=os.path.dirname(os.path.dirname(__file__))
 name=os.path.split(__file__)[-1].split(".")[0]
 log_path=name+log_exsion
+# with open(dir+"/logs/" + log_path,"w") as f:
+#     f.write(" ")
 logger1= log_config.Logger(dir+"/logs/" + log_path, "test", log_level)
 header = yaml_conf.yaml_load(dir+"/data/header.yaml")
 print("11111111")

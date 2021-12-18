@@ -3,10 +3,12 @@
       countryPhoneCode: "1"
       password: "6d9597d054fab29693d255612e67bd6c"
       phone: "2565555555"
-  code: 1
+  check:
+      code: 1
 -
   data:
       countryPhoneCode: "1"
       password: "6d9597d054fab29693d255612e67bd6c"
       phone: "2565555556"
-  code: 1
+  check:
+      code: 1

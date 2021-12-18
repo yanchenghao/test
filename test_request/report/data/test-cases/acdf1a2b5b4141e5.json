@@ -1,12 +1,12 @@
 {
-  "uid" : "4a0b74e5d3dc7722",
-  "name" : "test_popular[params0-check0]",
-  "fullName" : "testcase.test_popular#test_popular",
-  "historyId" : "95e433924bfa5c5920b3ff2de264ffd8",
+  "uid" : "acdf1a2b5b4141e5",
+  "name" : "test_login[params0-check0]",
+  "fullName" : "testcase.login#test_login",
+  "historyId" : "4edf59b531c0e29e458a5d13153d86eb",
   "time" : {
-    "start" : 1639749196891,
-    "stop" : 1639749198028,
-    "duration" : 1137
+    "start" : 1639803283419,
+    "stop" : 1639803284826,
+    "duration" : 1407
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,31 +15,16 @@
   "newPassed" : false,
   "retriesCount" : 0,
   "retriesStatusChange" : false,
-  "beforeStages" : [ {
-    "name" : "login",
-    "time" : {
-      "start" : 1639749195633,
-      "stop" : 1639749196889,
-      "duration" : 1256
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  } ],
+  "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5d1fcb402b94498",
+      "uid" : "35e1d30544bedd46",
       "name" : "log",
-      "source" : "5d1fcb402b94498.txt",
+      "source" : "35e1d30544bedd46.txt",
       "type" : "text/plain",
-      "size" : 14328
+      "size" : 229
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -53,13 +38,13 @@
     "value" : "testcase"
   }, {
     "name" : "suite",
-    "value" : "test_popular"
+    "value" : "login"
   }, {
     "name" : "host",
     "value" : "CYHD-L-0025"
   }, {
     "name" : "thread",
-    "value" : "31056-MainThread"
+    "value" : "34384-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -68,7 +53,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcase.test_popular"
+    "value" : "testcase.login"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -78,7 +63,7 @@
     "value" : "{'code': 1}"
   }, {
     "name" : "params",
-    "value" : "{'type': 'popular'}"
+    "value" : "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -89,6 +74,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4a0b74e5d3dc7722.json",
-  "parameterValues" : [ "{'code': 1}", "{'type': 'popular'}" ]
+  "source" : "acdf1a2b5b4141e5.json",
+  "parameterValues" : [ "{'code': 1}", "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
 }
