@@ -18,30 +18,30 @@ log_path=name+log_exsion
 dir=os.path.dirname(os.path.dirname(__file__))
 name=os.path.split(__file__)[-1].split(".")[0]
 log_path=name+log_exsion
-# with open(dir+"/logs/" + log_path,"w") as f:
-#     f.write(" ")
+with open(dir+"/logs/" + log_path,"w") as f:
+    f.write(" ")
 logger1= log_config.Logger(dir+"/logs/" + log_path, "test", log_level)
 header = yaml_conf.yaml_load(dir+"/data/header.yaml")
 print("11111111")
-@pytest.fixture()
-def login():
-    path="/api/user/snackUser/login"
-    url1=protocol+host+path
-    data=yaml_conf.yaml_load(dir+"/data/login.yaml")
-    print(data)
-    params=data[0]["data"]#取正确的用例让其执行成功
-    print("444444444")
-    print(params)
-    print(params)
-    logger1.logger.info("当前url:" + url1)
-    logger1.logger.info("当前的测试参数"+str(params))
-    # print(pams)
-    r1=request1.request(url1,headers=header,json=params,http_method="post",timeout=5,verify=False)
-    print(r1)
-    print("333333333")
-    token=r1["body"]["body"]["token"]
-    print(token)
-    return token
+# @pytest.fixture()
+# def login():
+#     path="/api/user/snackUser/login"
+#     url1=protocol+host+path
+#     data=yaml_conf.yaml_load(dir+"/data/login.yaml")
+#     print(data)
+#     params=data[0]["data"]#取正确的用例让其执行成功
+#     print("444444444")
+#     print(params)
+#     print(params)
+#     logger1.logger.info("当前url:" + url1)
+#     logger1.logger.info("当前的测试参数"+str(params))
+#     # print(pams)
+#     r1=request1.request(url1,headers=header,json=params,http_method="post",timeout=5,verify=False)
+#     print(r1)
+#     print("333333333")
+#     token=r1["body"]["body"]["token"]
+#     print(token)
+#     return token
 
 
 
@@ -66,7 +66,7 @@ print("sdsdsd")
 #params,check分别对应{'type': 'popular'}，{'code': 1}，
 #@pytest.mark.parametrize会把用例列表中多个参数对应
 @pytest.mark.parametrize("params,check", list)
-def test_popular(login,params,check):
+def test_popular(login,login1,params,check):
     # params=params["type"]
     # print(params)
     # params=params["data"]

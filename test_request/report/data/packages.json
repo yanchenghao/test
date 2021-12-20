@@ -5,13 +5,13 @@
     "name" : "testcase.login",
     "children" : [ {
       "name" : "test_login[params0-check0]",
-      "uid" : "acdf1a2b5b4141e5",
+      "uid" : "cf14f8c6c61324ab",
       "parentUid" : "0fe8c6139a768a7ae97ceab988790dfb",
       "status" : "passed",
       "time" : {
-        "start" : 1639803283419,
-        "stop" : 1639803284826,
-        "duration" : 1407
+        "start" : 1640000423632,
+        "stop" : 1640000424947,
+        "duration" : 1315
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +22,13 @@
       "parameters" : [ "{'code': 1}", "{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}" ]
     }, {
       "name" : "test_login[params1-check1]",
-      "uid" : "482a5acb4adf46c0",
+      "uid" : "38ea95b442b3a8d2",
       "parentUid" : "0fe8c6139a768a7ae97ceab988790dfb",
       "status" : "passed",
       "time" : {
-        "start" : 1639803284837,
-        "stop" : 1639803285949,
-        "duration" : 1112
+        "start" : 1640000424969,
+        "stop" : 1640000426379,
+        "duration" : 1410
       },
       "flaky" : false,
       "newFailed" : false,
