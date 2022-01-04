@@ -66,7 +66,9 @@ print("sdsdsd")
 #params,check分别对应{'type': 'popular'}，{'code': 1}，
 #@pytest.mark.parametrize会把用例列表中多个参数对应
 @pytest.mark.parametrize("params,check", list)
-def test_popular(login,login1,params,check):
+# @pytest.mark.usefixtures("login")
+# @pytest.mark.usefixtures("login1")
+def test_popular(login,params,check):
     # params=params["type"]
     # print(params)
     # params=params["data"]

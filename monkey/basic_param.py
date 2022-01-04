@@ -7,8 +7,8 @@ import glob
 import time
 # def test_mytest():
 path = "d:\\monkey_test\\"
-pk = "com.transsnet.news.more.ngblog"
-meminfotime=10#10sYici
+pk = "com.mole.talktalk"
+meminfotime=1000#10sYici
 # pk="com.transsnet.news.more.ngblog"
 def dev_geted():
     # for file in glob.glob(os.path.join(path, '*.cmd')):

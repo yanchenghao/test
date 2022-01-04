@@ -6,7 +6,7 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/monkey" />
-            <path value="file://$PROJECT_DIR$/madiian_test" />
+            <path value="file://$PROJECT_DIR$/work_test" />
             <path value="file://$PROJECT_DIR$/test_request" />
             <path value="file://$PROJECT_DIR$/cool_start" />
           </resourceRoots>

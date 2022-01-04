@@ -49,6 +49,7 @@ def login():
 @pytest.fixture(scope="function")
 def login1():
     login()
+    print("前置")
     yield
     print("后置erefdffdgdfgd")
 
