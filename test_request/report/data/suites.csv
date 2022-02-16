@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Dec 20 19:40:24 CST 2021","Mon Dec 20 19:40:26 CST 2021","1410","testcase","login","","","","test_login[params1-check1]","测试登录功能，两个正例测试"
-"passed","Mon Dec 20 19:40:23 CST 2021","Mon Dec 20 19:40:24 CST 2021","1315","testcase","login","","","","test_login[params0-check0]","测试登录功能，两个正例测试"

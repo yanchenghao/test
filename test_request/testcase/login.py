@@ -1,3 +1,5 @@
+import logging
+
 import pytest
 from common import log_config
 from common import http_requests
@@ -20,6 +22,9 @@ log_path=name+log_exsion
 with open(dir+"/logs/" + log_path,"w") as f:
     f.write(" ")
 logger1= log_config.Logger(dir+"/logs/" + log_path, "test", log_level)
+# logger=logging.getLogger("test")#zidaiderizhixitong
+# handle=logging.FileHandler(dir+"/logs/" + log_path,encoding='utf-8')
+# logger.addHandler(handle)
 path="/api/user/snackUser/login"
 
 url1=protocol+host+path
@@ -44,6 +49,9 @@ def test_login(params,check):
 	logger1.logger.info("当前url:" + url1)
 	print(params)
 	logger1.logger.info("当前的测试参数"+str(params))
+	# logger.info("当前url:" + url1)
+	# print(params)
+	# logger.info("当前的测试参数"+str(params))
 	# print(pams)
 	r1=request1.request(url1,headers=header,json=params,http_method="post",timeout=5,verify=False)
 	print(r1)

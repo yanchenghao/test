@@ -44,7 +44,7 @@ def monkey_runing():
     #      monkey3_file.write(f"adb -s {dev} shell date >>{path}{dev}\meninfo.logs\n")
     #      time.sleep(1)
     #      monkey3_file.write("exit\n")
-    #
+    #os.listdir() 方法用于返回指定的文件夹包含的文件或文件夹的名字的列表。
     for file in os.listdir(path):
      if os.path.isfile(os.path.join(path, file)) == True:
           if file.find('.bat') > 0:
