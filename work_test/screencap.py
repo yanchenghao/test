@@ -1,6 +1,17 @@
-import os
-from time import sleep
-for i in range(1, 50):
-    sleep(0.1)
-    os.system(f"adb shell screencap /sdcard/Pictures/Screenshot/screen{i}.png\n")
 
+
+class a:
+    def __init__(self,a):
+        self.a=a
+        print("a")
+        pass
+    def sd(self):
+        a.dfdf()
+        pass
+    def dfdf(self):
+        pass
+
+class b(a):
+    pass
+
+c=b("c")
