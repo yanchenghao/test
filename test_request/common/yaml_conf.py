@@ -1,6 +1,7 @@
-import yaml
-import os
 from os.path import *
+
+import yaml
+
 # pwd=os.getcwd()
 # print(pwd)
 extrayaml = dirname(abspath(__file__)) + sep + "extract.yaml"

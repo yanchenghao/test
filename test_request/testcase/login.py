@@ -1,5 +1,4 @@
 import logging
-
 import pytest
 from common import log_config
 from common import http_requests
@@ -17,6 +16,7 @@ print(__file__)
 print(os.path.dirname(__file__))
 print(os.path.dirname(os.path.dirname(__file__)))
 dir=os.path.dirname(os.path.dirname(__file__))
+print(dir)
 name=os.path.split(__file__)[-1].split(".")[0]
 log_path=name+log_exsion
 with open(dir+"/logs/" + log_path,"w") as f:
@@ -28,8 +28,8 @@ logger1= log_config.Logger(dir+"/logs/" + log_path, "test", log_level)
 path="/api/user/snackUser/login"
 
 url1=protocol+host+path
-header=yaml_conf.yaml_load("./data/header.yaml")
-list=yaml_conf.get_yaml_data("./data/login.yaml")
+header=yaml_conf.yaml_load("/Users/yanchenghao/PycharmProjects/PycharmProjects/pythonProject/test_request/data/header.yaml")
+list=yaml_conf.get_yaml_data("/Users/yanchenghao/PycharmProjects/PycharmProjects/pythonProject/test_request/data/login.yaml")
 # data=yaml_conf.yaml_load("./data/login.yaml")
 # print("11111111")
 # print(data)
