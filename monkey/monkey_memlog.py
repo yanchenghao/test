@@ -15,7 +15,7 @@ def monkey_meminfo():
         # for file in glob.glob(os.path.join(path, '*.cmd')):#
       print(dev)
         #   os.remove(file)
-      os.system("cls")
+      os.system("clear")
       devicedir = os.path.exists(path + dev)
       if devicedir:
             print("file was exist")

@@ -1,0 +1,4 @@
+INFO     test:test_popular.py:79 当前url:https://api.molelive.com/api/content/index/all
+INFO     test:test_popular.py:81 当前的测试参数{'type': 'new'}
+INFO     test:test_popular.py:82 当前的check{'code': 1}
+INFO     test:test_popular.py:87 当前的返回结果{'code': 200, 'body': {'code': 100001, 'message': 'Network is abnormal. Please try again.(100001)', 'body': ''}}

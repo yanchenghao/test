@@ -1,0 +1,18 @@
+accept-encoding: gzip
+appplatform: '1'
+appversioncode: '7'
+appversionname: '1.0.1'
+authorization: ""
+brand: Infinix
+content-type: application/json
+country: CN
+curpackagechannel: 'google'
+deviceid: 8c154773-5b9a-4b25-bfd9-bf488b7643b9
+language: en
+model: Infinix X687
+packagechannel: 'google'
+packagename: com.mole.talktalk
+sdkint: '29'
+user-agent: okhttp/3.14.9
+Host: api.molelive.com
+

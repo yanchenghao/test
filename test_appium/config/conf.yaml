@@ -1,0 +1,5 @@
+base:
+  host: "api.molelive.com" #正式环境
+  protocol: "https://"
+  log_level: "info"
+  log_extension: ".log"

@@ -8,16 +8,18 @@ import basic_param
 def monkey_errlog():
     from subprocess import Popen
     devs=basic_param.dev_geted()
+    print(devs)
     pk = basic_param.pk
     path = basic_param.path
-    for file in glob.glob(os.path.join(path, '*.cmd')):
+    print(path)
+    for file in glob.glob(os.path.join(path, '*.command')):
             os.remove(file)
     for dev in devs:
         # for file in glob.glob(os.path.join(path, '*.cmd')):#
 
       print(f"{dev}")
         #   os.remove(file)
-      os.system("cls")
+      os.system("clear")
       devicedir = os.path.exists(path + dev)
       if devicedir:
             print("file was exist")
@@ -34,7 +36,7 @@ def monkey_errlog():
       #            --pct-appswitch 32 --pct-anyevent 1  --ignore-security-exceptions  --ignore-crashes --ignore-timeouts \
       #            100000000 1>{path}{dev}\monkey.logs  2>{path}{dev}\error.logs" + "\n")
       # time.sleep(1)
-      with open(path + dev + "-logcat" + ".bat", "w") as monkey2_file:
+      with open(path + dev + "-logcat" + ".command", "w") as monkey2_file:
           monkey2_file.write(f"adb -s {dev} logcat -b main -v time|findstr E/>{path}{dev}\ppstore_logcat.log" + "\n")
           monkey2_file.write("pause\n")
           time.sleep(1)
@@ -47,8 +49,8 @@ def monkey_errlog():
     #
     for file in os.listdir(path):
      if os.path.isfile(os.path.join(path, file)) == True:
-          if file.find('.bat') > 0:
-                os.system('start ' + os.path.join(path,file))
+          if file.find('.command') > 0:
+                os.system('sh ' + os.path.join(path,file))
                 time.sleep(1)
     #       if file.find('meninfo.bat') > 0:
     #           for i in range(1,4):

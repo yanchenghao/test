@@ -10,14 +10,14 @@ def monkey_runing():
     devs=basic_param.dev_geted()
     pk = basic_param.pk
     path = basic_param.path
-    for file in glob.glob(os.path.join(path, '*.cmd')):
+    for file in glob.glob(os.path.join(path, '*.command')):
             os.remove(file)
     for dev in devs:
         # for file in glob.glob(os.path.join(path, '*.cmd')):#
 
       print(f"{dev}")
         #   os.remove(file)
-      os.system("cls")
+      os.system("clear")
       devicedir = os.path.exists(path + dev)
       if devicedir:
             print("file was exist")
@@ -28,11 +28,11 @@ def monkey_runing():
                 print(err)
       # os.system(f"adb -s {dev} logcat -b main -v time|findstr E/>{path}{dev}\ppstore1_logcat.logs")
       time.sleep(1)
-      with open(path + dev + "-monkey" + ".bat", "w") as monkey1_file:  #
+      with open(path + dev + "-monkey" + ".command", "w") as monkey1_file:  #
             monkey1_file.write(f"adb -s {dev} shell  monkey -p {pk} -v -v-v  -s 100  --throttle 100  \
                 --pct-touch 20 --pct-motion 5 --pct-trackball 20 --pct-nav 2 --pct-majornav 19 --pct-syskeys 0 \
                  --pct-appswitch 32 --pct-anyevent 1  --ignore-security-exceptions  --ignore-crashes --ignore-timeouts \
-                 100000000 1>{path}{dev}\monkey.log  2>{path}{dev}\error.log" + "\n")
+                 100000000 1>{path}{dev}/monkey.log  2>{path}{dev}/error.log" + "\n")
       time.sleep(1)
       # with open(path + dev + "-logcat" + ".bat", "w") as monkey2_file:
       #     monkey2_file.write(f"adb -s {dev} logcat -b main -v time|findstr E/>{path}{dev}\ppstore_logcat.logs" + "\n")
@@ -47,8 +47,8 @@ def monkey_runing():
     #os.listdir() 方法用于返回指定的文件夹包含的文件或文件夹的名字的列表。
     for file in os.listdir(path):
      if os.path.isfile(os.path.join(path, file)) == True:
-          if file.find('.bat') > 0:
-                os.system('start ' + os.path.join(path,file))
+          if file.find('.command') > 0:
+                os.system('sh ' + os.path.join(path,file))
                 time.sleep(1)
     #       if file.find('meninfo.bat') > 0:
     #           for i in range(1,4):

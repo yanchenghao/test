@@ -1,0 +1,10 @@
+-
+  data:
+     type: "popular"
+  check:
+     code: 1
+-
+  data:
+      type: "new"
+  check:
+     code: 1

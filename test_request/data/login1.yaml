@@ -1,0 +1,12 @@
+-
+  data:
+      password: "Best1234"
+      phone: "20000"
+  check:
+      code: 1
+-
+  data:
+      password: "Best1234"
+      phone: "200000"
+  check:
+      code: 1
