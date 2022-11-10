@@ -17,7 +17,7 @@ for i in range(88888105,88888107):
     "appActivity": "com.transsnet.audiolive.act.SplashActivity"
   }
   driver = webdriver.Remote(server,desired_caps)
-  time.sleep(5)
+  time.sleep(4)
   el2 = driver.find_element(AppiumBy.XPATH, "//*[@text='Phone']")
 
   try:
