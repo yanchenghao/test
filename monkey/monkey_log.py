@@ -33,7 +33,7 @@ def monkey_runing():
                 --pct-touch 20 --pct-motion 5 --pct-trackball 20 --pct-nav 2 --pct-majornav 19 --pct-syskeys 0 \
                  --pct-appswitch 32 --pct-anyevent 1  --ignore-security-exceptions  --ignore-crashes --ignore-timeouts \
                  100000000 1>{path}{dev}/monkey.log  2>{path}{dev}/error.log" + "\n")
-      time.sleep(1)
+      time.sleep(10)
       # with open(path + dev + "-logcat" + ".bat", "w") as monkey2_file:
       #     monkey2_file.write(f"adb -s {dev} logcat -b main -v time|findstr E/>{path}{dev}\ppstore_logcat.logs" + "\n")
       #     monkey2_file.write("pause\n")
@@ -49,7 +49,7 @@ def monkey_runing():
      if os.path.isfile(os.path.join(path, file)) == True:
           if file.find('.command') > 0:
                 os.system('sh ' + os.path.join(path,file))
-                time.sleep(1)
+                time.sleep(5)
     #       if file.find('meninfo.bat') > 0:
     #           for i in range(1,4):
     #             time.sleep(5)

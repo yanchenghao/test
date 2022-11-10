@@ -8,7 +8,7 @@ import time
 # def test_mytest():
 # path = "d:\\monkey_test\\"
 path = "/Users/yanchenghao/Documents/monkey_test/"
-pk = "com.mole.talktalk"
+pk = "com.clean.speedup.boost.fast"
 meminfotime=1000#10sYici
 # pk="com.transsnet.news.more.ngblog"
 def dev_geted():
