@@ -33,7 +33,7 @@ def login(driver,phone,password):
       time.sleep(2)
       el4=driver.find_element(AppiumBy.ID,"com.haflla.soulu:id/password")
       time.sleep(3)
-      el4.send_keys("password")
+      el4.send_keys(password)
       driver.hide_keyboard()
       time.sleep(2)
       el4 = driver.find_element(AppiumBy.ID, "com.haflla.soulu:id/btn_next")
