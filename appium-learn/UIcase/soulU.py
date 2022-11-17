@@ -1,4 +1,9 @@
+import sys
+import os
 import traceback
+
+os.system("pwd")
+sys.path.append("/Users/yanchenghao/PycharmProjects/PycharmProjects/pythonProject/appium-learn/UIcase")
 from appium import webdriver
 import time
 
@@ -6,7 +11,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.common.by import By
 
 
-for i in range(88888105,88888107):
+for i in range(88888180,88888201):
   server = 'http://0.0.0.0:4723/wd/hub'
   desired_caps = {
     "platformName": "Android",
@@ -17,6 +22,8 @@ for i in range(88888105,88888107):
     "appActivity": "com.transsnet.audiolive.act.SplashActivity"
   }
   driver = webdriver.Remote(server,desired_caps)
+
+
   time.sleep(4)
   el2 = driver.find_element(AppiumBy.XPATH, "//*[@text='Phone']")
 
@@ -24,13 +31,12 @@ for i in range(88888105,88888107):
     if el2:
       # print(driver.find_element(by=AppiumBy.ANDROID_UIAUTOMATOR, value="phone"))
       el2.click()
-      time.sleep(2)
-      print("sdfdsd")
+      time.sleep(3)
       el3=driver.find_element(AppiumBy.ID,"com.haflla.soulu:id/mobile")
       el3.send_keys(f"{i}")
       driver.keyevent(4)
-      print("234234")
-      time.sleep(2)
+      print(f"{i}")
+      time.sleep(1)
       driver.find_element(AppiumBy.ID,"com.haflla.soulu:id/text").click()
       time.sleep(2)
       el4=driver.find_element(AppiumBy.ID,"com.haflla.soulu:id/password")
@@ -40,13 +46,11 @@ for i in range(88888105,88888107):
       el4 = driver.find_element(AppiumBy.ID, "com.haflla.soulu:id/btn_next")
       el4.click()
 
-      time.sleep(5)
-
     else:
       print("sdsfsdfs")
 
   except:
-    print(traceback.format_exc())
+    traceback.print_exc()
   finally:
-    time.sleep(10)
+    time.sleep(8)
     driver.quit()
