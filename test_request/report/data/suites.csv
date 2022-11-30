@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Sep 16 20:51:23 CST 2022","Fri Sep 16 20:51:24 CST 2022","969","testcase","login","","","","test_login[params1-check1]","测试登录功能，两个正例测试"
-"passed","Fri Sep 16 20:51:22 CST 2022","Fri Sep 16 20:51:23 CST 2022","1229","testcase","login","","","","test_login[params0-check0]","测试登录功能，两个正例测试"
+"passed","Wed Nov 30 11:09:32 CST 2022","Wed Nov 30 11:09:34 CST 2022","1489","testcase","login","","","","test_login[params0-check0]","测试登录功能，1正例1反例"
+"failed","Wed Nov 30 11:09:34 CST 2022","Wed Nov 30 11:09:35 CST 2022","1015","testcase","login","","","","test_login[params1-check1]","测试登录功能，1正例1反例"

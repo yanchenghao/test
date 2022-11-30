@@ -40,7 +40,7 @@ list=yaml_conf.get_yaml_data("/Users/yanchenghao/PycharmProjects/PycharmProjects
 # params=data["pam"]
 # print(params)
 @allure.feature("登录模块")
-@allure.description("测试登录功能，两个正例测试")
+@allure.description("测试登录功能，1正例1反例")
 @allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.parametrize("params,check", list)
 def test_login(params,check):
