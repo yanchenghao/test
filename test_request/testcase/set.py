@@ -2,7 +2,7 @@
 #     print("==>setup_module")
 # 模块级别 --对这个文件起作用，所有测试类之后执行
 def setup_module():
-    print("==>teardown_module")
+    print("==>teardown_m1111odule")
 def teardown_module():
     print("==>teardown_module")
 def setup_class(self):
