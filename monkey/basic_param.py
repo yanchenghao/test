@@ -8,7 +8,7 @@ import time
 # def test_mytest():
 # path = "d:\\monkey_test\\"
 path = "/Users/yanchenghao/Documents/monkey_test/"
-pk = "com.clean.speedup.boost.fast"
+pk = "com.cleanobjects.protectspeedl.boost.android"
 meminfotime=1000#10sYici
 # pk="com.transsnet.news.more.ngblog"
 def dev_geted():
@@ -23,10 +23,6 @@ def dev_geted():
 
     ds = list(range(n))
     for i in range(n):
-      path = "/Users/yanchenghao/Documents/monkey_test"
-      # list=rt[i+1].split("\t")
-      # phonemodel=list[i]
-      # dev=phonemodel#
       nPos = rt[i + 1].index("\t")
       ds[i] = rt[i + 1][:nPos]
     return ds

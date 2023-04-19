@@ -26,6 +26,8 @@ def monkey_meminfo():
                 print(err)
       for i in range(1,meminfotime):
             time.sleep(1)
-            os.system(f"adb -s {dev}  shell dumpsys meminfo {pk}:core |findstr PSS >>{path}{dev}\meninfo.log\n")
-            time.sleep(1)
+            os.system(f"adb -s {dev}  shell dumpsys meminfo {pk} :core |grep PSS >>{path}{dev}\meninfo.log\n")
+            # os.system("adb shell dumpsys meminfo com.cleanobjects.protectspeedl.boost.android :core |grep PSS >>/Users/yanchenghao/Desktop/log.txt\n")
+            time.sleep(2)
+            # os.system(f"adb -s {dev} shell date >>{path}{dev}\meninfo.log\n")
             os.system(f"adb -s {dev} shell date >>{path}{dev}\meninfo.log\n")
